@@ -44,6 +44,10 @@ dotnet run
 
 Abre el navegador y ve a http://localhost:3000 para ver la aplicación en ejecución.
 
+Captura de pantalla:
+
+![image](https://github.com/user-attachments/assets/574543b6-dfac-4902-8306-8a82d5eb4910)
+
 
 Linkedin: www.linkedin.com/in/ivan-vega-porras
 
