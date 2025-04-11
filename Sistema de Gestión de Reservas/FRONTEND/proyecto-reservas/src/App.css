@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #1976d2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1565c0;
+}
+
+.mensaje {
+  color: #1976d2;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.reservas-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.reservas-table th,
+.reservas-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.reservas-table th {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.reservas-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.reservas-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.reservas-table button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reservas-table button.update {
+  background-color: #43a047;
+  color: white;
+}
+
+.reservas-table button.update:hover {
+  background-color: #388e3c;
+}
+
+.reservas-table button {
+  background-color: #e53935;
+  color: white;
+}
+
+.reservas-table button:hover {
+  background-color: #d32f2f;
+}
